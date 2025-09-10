@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -13,6 +12,13 @@
     />
 
     <title>k-wlodarczyk | Intro section with dropdown navigation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -20,20 +26,60 @@
       <section class="logo-and-menu-section">
         <img src="images/logo.svg" alt="Logo of the Snap company" />
         <ul class="nav-menu-list">
-          <li>Features</li>
-          <li>Company</li>
-          <li>Careers</li>
-          <li>About</li>
+          <li class="nav-menu-item">
+            <a href="#"
+              >Features
+              <span
+                ><img
+                  src="images/icon-arrow-down.svg"
+                  alt="arrow for expanding dropdown menu" /></span
+            ></a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#"
+              >Company
+              <span
+                ><img
+                  src="images/icon-arrow-down.svg"
+                  alt="arrow for expanding dropdown menu" /></span
+            ></a>
+          </li>
+          <li class="nav-menu-item"><a href="#">Careers</a></li>
+          <li class="nav-menu-item"><a href="#">About</a></li>
         </ul>
       </section>
       <section class="login-section">
-        <button class="login-btn">Login</button>
-        <button class="register-btn">Register</button>
+        <button class="login-btn btn">Login</button>
+        <button class="register-btn btn">Register</button>
       </section>
     </nav>
 
-    Make remote work Get your team in sync, no matter your location. Streamline
-    processes, create team rituals, and watch productivity soar. Learn more
+    <section class="hero-section">
+      <div class="hero-text">
+        <h1 class="hero-header">Make remote work</h1>
+        <p class="hero-description">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="hero-btn cta-btn">Learn more</button>
+        <div class="hero-clients">
+          <img src="images/client-databiz.svg" alt="logo of client Databiz" />
+          <img
+            src="images/client-audiophile.svg"
+            alt="logo of client audiophile"
+          />
+          <img src="images/client-meet.svg" alt="logo of client meet" />
+          <img src="images/client-maker.svg" alt="logo of client maker" />
+        </div>
+      </div>
+      <div class="hero-img">
+        <img
+          src="images/image-hero-desktop.png"
+          alt="A man with laptop"
+          class="hero-image"
+        />
+      </div>
+    </section>
 
     <div class="attribution">
       Challenge by
