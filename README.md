@@ -14,6 +14,13 @@ This project is a solution to the [Intro section with dropdown navigation](https
 - Cypress
 - AI Support :)
 
+## How to run
+
+The application is deployed in netlify service so you can open it by open the link:
+[Snap app on Netlify](https://snap-kwlodarczyk.netlify.app/)
+
+Alternative way is installing this repo and run index.html.
+
 ## Key Features
 
 This project focuses on providing a seamless and responsive user experience, particularly with its navigation. It features:
