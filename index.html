@@ -23,12 +23,17 @@
     <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
-    <div class="overlay"></div>
+    <div class="overlay" data-cy="overlay"></div>
     <nav class="nav-bar">
       <section class="logo-and-menu-section">
         <img src="images/logo.svg" alt="Logo of the Snap company" />
-        <ul class="nav-menu-list">
-          <li class="nav-menu-item" id="features-item" dropdown-element>
+        <ul class="nav-menu-list" data-cy="nav-menu-list">
+          <li
+            class="nav-menu-item"
+            id="features-item"
+            data-cy="features-dropdown-initiator"
+            dropdown-element
+          >
             <a href="#" class="menu-link"
               >Features
               <span
@@ -38,7 +43,7 @@
                   class="menu-item-arrow" /></span
             ></a>
             <!-- FEATURES DROPDOWN -->
-            <ul class="features-dropdown dropdown">
+            <ul class="features-dropdown dropdown" data-cy="features-dropdown">
               <li>
                 <span><img src="images/icon-todo.svg" alt="" /></span
                 ><a href="#" class="menu-link">Todo list</a>
@@ -67,7 +72,7 @@
                   class="menu-item-arrow" /></span
             ></a>
             <!-- COMPANY DROPDOWN -->
-            <ul class="company-dropdown dropdown">
+            <ul class="company-dropdown dropdown" data-cy="company-dropdown">
               <li><a href="#" class="menu-link">History</a></li>
               <li><a href="#" class="menu-link">Our team</a></li>
               <li><a href="#" class="menu-link">Blog</a></li>
@@ -86,12 +91,12 @@
           </section>
         </ul>
       </section>
-      <section class="login-section">
+      <section class="login-section" data-cy="login-section">
         <button class="login-btn btn">Login</button>
         <button class="register-btn btn">Register</button>
       </section>
-      <button class="hamburger-btn">
-        <img src="images/icon-menu.svg" alt="" />
+      <button class="hamburger-btn" data-cy="hamburger-btn">
+        <img src="images/icon-menu.svg" alt="" class="hamburger-icon" />
       </button>
     </nav>
 
