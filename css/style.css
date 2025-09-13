@@ -149,7 +149,7 @@ body {
 
 .logo-and-menu-section {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: var(--space-3xl);
 }
 
@@ -181,7 +181,7 @@ body {
 
 .login-section {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: var(--space-lg);
   margin-right: var(--space-xl);
 }
